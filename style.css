@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#card {
+    background-color: #a5b7cb;
+    padding: 40px 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 12px;
+    box-shadow: 3px 4px 17px rgba(0, 0, 0, .6);
+    position: relative;
+}
+
+#btn {
+    border: none;
+    padding: 7px 25px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 6px;
+}
+
+#copyBtn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: semibold;
+    color: #e5e5e5;
+}
+
+#copyBtn:active {
+    color: #0ef146;
+}
